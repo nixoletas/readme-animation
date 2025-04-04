@@ -1,7 +1,7 @@
 services:
   web:
     container_name: welcome
-    build: .
+    image: nixoletas/welcome:latest
     ports:
       - "80:80"
     volumes:
