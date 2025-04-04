@@ -1,7 +1,6 @@
 services:
   web:
     image: nixoletas/welcome:latest
-    container_name: welcome-nick
     ports:
       - "80:80"
     restart: unless-stopped
