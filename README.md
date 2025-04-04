@@ -20,3 +20,8 @@ services:
       - NGINX_HOST=localhost
       - NGINX_PORT=80
 ```
+- run the project
+```bash
+docker compose up -d
+```
+- check it out at http://localhost
